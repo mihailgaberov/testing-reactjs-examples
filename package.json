@@ -1,0 +1,25 @@
+{
+  "name": "testing-reactjs-presentation",
+  "version": "0.1.0",
+  "description": "'What should we test in our React components' - presentation with working examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihailgaberov/testing-reactjs-presentation"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Unit",
+    "testing",
+    "UI"
+  ],
+  "author": "Mihail Gaberov",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
