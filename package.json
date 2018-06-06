@@ -1,7 +1,7 @@
 {
   "name": "testing-reactjs-presentation",
   "version": "0.1.0",
-  "description": "'What should we test in our React components' - presentation with working examples.",
+  "description": "'What should we test in our React components' - presentation examples.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mihailgaberov/testing-reactjs-presentation"
+    "url": "https://github.com/mihailgaberov/testing-reactjs-examples"
   },
   "keywords": [
     "React",
