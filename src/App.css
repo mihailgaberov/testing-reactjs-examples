@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  background-color: #222;
+  color: navajowhite;
+  height: 100vh;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.App-image {
+  width: 800px;
+}
+a {
+  color: orange;
+    font: italic 1.2em "Fira Sans", serif;
+}
