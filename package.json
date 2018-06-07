@@ -1,25 +1,22 @@
 {
-  "name": "testing-reactjs-presentation",
+  "name": "testing-reactjs-examples",
   "version": "0.1.0",
-  "description": "'What should we test in our React components' - presentation examples.",
-  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mihailgaberov/testing-reactjs-examples"
-  },
-  "keywords": [
-    "React",
-    "ReactJS",
-    "Unit",
-    "testing",
-    "UI"
-  ],
-  "author": "Mihail Gaberov",
-  "license": "MIT",
-  "readmeFilename": "README.md"
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "sinon": "^5.1.0"
+  }
 }
