@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTextInput component renders correctly 1`] = `
+<input
+  className="custom-text-input"
+  name="action-txt"
+  readOnly={true}
+  type="text"
+  value="test"
+/>
+`;
