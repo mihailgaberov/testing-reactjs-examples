@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <CustomTextInput
+    textInputValue="Zurich"
+  />
+  <CustomButton
+    btnLabel="Sie buton"
+    clickHandler={[Function]}
+  />
+</div>
+`;
+
+exports[`renders correctly again 1`] = `
+<div>
+  <input
+    class="custom-text-input"
+    name="action-txt"
+    readonly=""
+    type="text"
+    value="Zurich"
+  >
+    
+  </input>
+  <button
+    class="custom-btn"
+    name="action-btn"
+    type="button"
+  >
+    Sie buton
+  </button>
+</div>
+`;
