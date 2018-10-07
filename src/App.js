@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import hp from './images/hp.jpg';
+import hp from '../../hp.jpg';
 import ButtonWithTextInput from './ButtonWithTextInput';
 
 class App extends Component {
